@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "fastify starter with eslint and typescript",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "build": "prisma generate && tsc --build",
     "start": "prisma generate && ts-node src/main.ts",
